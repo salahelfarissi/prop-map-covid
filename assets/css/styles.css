@@ -1,3 +1,13 @@
+.navbar {
+  margin-left: 14px;
+  margin-right: 14px;
+}
+
+h1 {
+  font-family: 'Open Sans', sans-serif;
+  letter-spacing: normal;
+}
+
 #wrapper {
     width: 960px;
     margin: 15px auto;

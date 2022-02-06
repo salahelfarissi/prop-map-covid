@@ -10,13 +10,13 @@
     <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Google fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600&amp;display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600&amp;display=swap" rel="stylesheet" crossorigin="anonymous" integrity="">
 
     <!-- Main stylesheet -->
     <link href="assets/css/styles.css" rel="stylesheet">
 
     <!-- Leaflet stylesheet -->
-    <link crossorigin="" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+    <link crossorigin="anonymous" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
           integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
           rel="stylesheet"/>
 
@@ -26,7 +26,7 @@
 
 <body>
 <!-- Navigation Bar -->
-<nav class="navbar navbar-light navbar-expand-md" style="margin-left: 14px;margin-right: 14px;">
+<nav class="navbar navbar-light navbar-expand-md">
     <div class="container-fluid"><a class="navbar-brand" href="index.html">Géoportail</a>
         <button class="navbar-toggler" data-bs-target="#navcol-1" data-bs-toggle="collapse"><span
                 class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
@@ -44,7 +44,7 @@
 
 <!-- Map div -->
 <div class="container" id="wrapper">
-    <h1 class="text-capitalize" style="font-family: 'Open Sans', sans-serif; letter-spacing: normal;">Carte covid</h1>
+    <h1 class="text-capitalize">Carte covid</h1>
     <p>Les nouveaux cas allant de 16 janvier à 22 janvier 2022.</p>
     <div id="map"></div>
 </div>
@@ -53,11 +53,11 @@
 <script src="assets/bootstrap/js/bootstrap.min.js"></script>
 <script src="assets/js/jquery-3.6.0.min.js"></script>
 <script src="assets/js/main.js"></script>
-<script crossorigin=""
+<script crossorigin="anonymous"
         integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
         src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
 <script src="./data/regions.js"></script>
-<script src='https://unpkg.com/simple-statistics@7.7.2/dist/simple-statistics.min.js'></script>
+<script src='https://unpkg.com/simple-statistics@7.7.2/dist/simple-statistics.min.js' crossorigin="anonymous"></script>
 <script src="./assets/js/simple_statistics.js"></script>
 </body>
 
