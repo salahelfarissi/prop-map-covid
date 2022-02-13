@@ -232,13 +232,8 @@ $(function() {
 
         info.onAdd = function () {
             this._div = L.DomUtil.create('div', 'info');
-            this.update();
-            return this._div;
-        };
-
-        // method that we will use to update the control based on feature properties passed
-        info.update = function () {
             this._div.innerHTML = '<h4>Carte covid, Maroc</h3>' + '<br>' + 'Passer la souris sur un symbole';
+            return this._div;
         };
 
         info.addTo(map);
